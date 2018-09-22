@@ -6,9 +6,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "jest-cli": "^22.1.4"
-  }
 }
