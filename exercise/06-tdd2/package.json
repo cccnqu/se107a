@@ -1,0 +1,11 @@
+{
+  "name": "ccclodash",
+  "version": "0.0.1",
+  "description": "reimplement some function of lodash ",
+  "main": "cccLodash.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
