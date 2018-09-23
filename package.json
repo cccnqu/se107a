@@ -2,7 +2,9 @@
   "name": "se106a",
   "version": "0.0.1",
   "description": "Software Engineering (NQU)",
-  "dependencies": {},
+  "dependencies": {
+    "uniq": "^1.0.1"
+  },
   "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^4.0.0"
