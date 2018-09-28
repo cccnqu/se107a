@@ -5,7 +5,7 @@
 Coverage Test
 
 ```
-csienqu-teacher:08-cover csienqu$ cd 08-cover
+csienqu-teacher$ cd 08-cover
 
 csienqu-teacher:08-cover csienqu$ npm i -g nyc
 /usr/local/bin/nyc -> /usr/local/lib/node_modules/nyc/bin/nyc.js
