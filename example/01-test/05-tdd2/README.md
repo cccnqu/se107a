@@ -1,45 +1,30 @@
-# ccclodash
+## 練習 -- TDD 完成
 
-Reimplement some function of lodash, just a practice
+講解： 從 lodash 中再度挑選第二個函數，但是這次採用 TDD 的方式。
 
-## Install
+TDD : Test Driven Development  (先寫測試，再寫程式)
 
-```
-$ npm i ccclodash
-```
+1. 挑選第二個 lodash 函數。 （已於上次完成）
+2. 選定後寫測試函數，寫好後直接打 mocha，此時會報錯誤。（已於上次完成）
+3. 接著再開始寫該函數的實作程式，直到 mocha 沒有報錯為止。 (這次要做這個動作)
 
-## Example
-
-File : ex1.js
-
-```js
-const _ = require('../ccclodash')
-
-console.log("_.chunk(['a', 'b', 'c', 'd'], 2)=", _.chunk(['a', 'b', 'c', 'd'], 2))
-console.log("_.chunk(['a', 'b', 'c', 'd'], 3)=", _.chunk(['a', 'b', 'c', 'd'], 3))
+範例
 
 ```
-
-Run
-
-```
-$ node ex1.js
-_.chunk(['a', 'b', 'c', 'd'], 2)= [ [ 'a', 'b' ], [ 'c', 'd' ] ]
-_.chunk(['a', 'b', 'c', 'd'], 3)= [ [ 'a', 'b', 'c' ], [ 'd' ] ]
-```
-
-## Test
-
-```
-$ mocha
-
-  cccLodash
-
-      √ _.chunk(['a', 'b', 'c', 'd'], 2) equalTo [ [ 'a', 'b' ], [ 'c', 'd' ] ]
-      √ _.chunk(['a', 'b', 'c', 'd'], 3) equalTo [ [ 'a', 'b', 'c' ], [ 'd' ] ]
-      √ _.chunk(['a', 'b', 'c', 'd'], 3) notEqualTo [ [ 'a', 'b'], ['c' , 'd' ] ]
+csienqu-teacher:01-test csienqu$ cd 05-tdd2/
+csienqu-teacher:05-tdd2 csienqu$ mocha
 
 
-  3 passing (35ms)
+  ccclodash
+    chunk
+      ✓ _.chunk(['a', 'b', 'c', 'd'], 2) equalTo [ [ 'a', 'b' ], [ 'c', 'd' ] ]
+      ✓ _.chunk(['a', 'b', 'c', 'd'], 3) equalTo [ [ 'a', 'b', 'c' ], [ 'd' ] ]
+      ✓ _.chunk(['a', 'b', 'c', 'd'], 3) notEqualTo [ [ 'a', 'b'], ['c' , 'd' ] ]
 
+  ccclodash
+    compact
+      ✓ _.compact([0, 1, false, 2, '', 3]) equalTo [ 1, 2, 3 ]
+
+
+  4 passing (9ms)
 ```

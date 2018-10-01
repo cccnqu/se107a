@@ -7,7 +7,7 @@ describe('ccclodash', function() {
 
   describe('concat', function() {
     it("_.concat(array, 2, [3], [[4]]) equalTo [1, 2, [3], [[4]]]", function() {
-      console.log('other=', other)
+      // console.log('other=', other)
       expect(other).to.deep.equal([1, 2, [3], [[4]]])
       // assert.deepStrictEqual(other, [1, 2, 3, [4]])
     });
