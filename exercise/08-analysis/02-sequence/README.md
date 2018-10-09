@@ -1,2 +1,3 @@
 # iChat -- 循序圖
 
+請根據 usecase 繪出 iChat 的循序圖 ...

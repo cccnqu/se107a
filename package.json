@@ -3,13 +3,23 @@
   "version": "0.0.1",
   "description": "Software Engineering (NQU)",
   "dependencies": {
+    "koa": "^2.5.3",
+    "koa-body": "^4.0.4",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "puppeteer": "^1.9.0",
+    "supertest": "^3.3.0",
     "uniq": "^1.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-flow": "^6.23.0",
     "chai": "^4.1.2",
-    "mocha": "^4.0.0"
+    "mocha": "^4.0.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
   },
   "scripts": {
     "test": "mocha"

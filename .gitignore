@@ -9,8 +9,6 @@ logs
 # pdf
 *.pdf
 
-*.png
-*.jpg
 
 # exe
 *.exe

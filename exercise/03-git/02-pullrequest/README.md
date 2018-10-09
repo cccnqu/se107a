@@ -1,6 +1,6 @@
-## 隨堂練習 -- 雙人合作初體驗 (pull request 一人分飾兩角)
+## 隨堂練習 -- 雙人合作初體驗 (pull request )
 
-請延續 《上一個練習》，將你的套件出版在 github 上
+請延續 《上一個練習》，試著用一人分飾兩角的方式，採用 organization + pull request 自己與自己合作！
 
 0. 在 github 中創造一個 organization
   * https://github.com/settings/organizations
