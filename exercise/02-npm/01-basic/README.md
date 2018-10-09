@@ -27,5 +27,6 @@
   * npm 套件的發布常常會延時，要過比較久才看得到，您可以在 yarn 看看該套件是否發布完成
   * (yarn 比較快，算是 npm 的競爭對手 ....)
   * https://yarnpkg.com/zh-Hans/package/你的套件名稱
+12. 用 npm i 你的套件名稱 安裝並寫一個測試程式，看看你的套件是否正常運作。
 
 完整參考: https://github.com/se107a/ccclodash
