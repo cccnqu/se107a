@@ -40,3 +40,9 @@
 9. 動態載入需要的資源 (並且在需要時才載入)
 10. 將 <script ...> 寫在網頁最後
 11. 避免使用同步的 I/O 函數
+
+
+## 反例
+
+* [如何写出无法维护的代码](https://coolshell.cn/articles/4758.html)
+* [程序员的二八定律](http://www.liriansu.com/pareto-rule-of-programmers)

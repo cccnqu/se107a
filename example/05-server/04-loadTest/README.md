@@ -3,7 +3,11 @@
 * [Easy profiling for Node.js Applications](https://nodejs.org/en/docs/guides/simple-profiling/)
   * Node.js + ab
 
-似乎用 ab 的人比較多 ....
+koa 官方用 wrk 進行測試
+
+* https://github.com/koajs/koa/tree/master/benchmarks
+
+但似乎用 ab 的人比較多 ....
 
 * 參考: https://github.com/alexfernandez/loadtest
 * [Node.js 測試處理 (3)](http://leoyeh.me:8080/2014/11/05/Node-js-%E6%B8%AC%E8%A9%A6%E8%99%95%E7%90%86-3/)
