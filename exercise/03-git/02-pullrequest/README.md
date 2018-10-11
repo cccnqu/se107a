@@ -26,4 +26,4 @@
 
 
 
-完整執行過程參考: https://github.com/se107a/ccclodash
+完整執行過程參考: ../../../example/03-git/README.md
