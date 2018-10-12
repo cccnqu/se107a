@@ -8,3 +8,8 @@
 4. Slave 測試沒問題後，將專案 push 回自己 fork 的版本中。
 5. Slave 發送 pull request 請求給 master ，請 master 收取新功能。
 6. Master 接收並測試，確認沒問題後接受 pull request.
+
+
+完整執行過程參考: [example/03-git/README.md](../../../example/03-git/README.md)
+
+專案請參考： https://github.com/se107a/ccclodas；
