@@ -14,3 +14,41 @@
 3. 抽出描述中適當的《名詞或形容詞》作為屬性
 
 ## 用 PlantUML 繪製類別圖
+
+```puml
+@startuml
+class User {
+  String name
+  String email
+  String password
+
+  +int login()
+  +int logout()
+  +int signup()
+}
+
+class Shop {
+  String name
+  String owner
+  Product items[]
+
+  +int save()
+  +int load()
+}
+
+class Server {
+  +User user
+  +Shop shop
+
+  {method} login(user, password)
+  {method} logout(user)
+  {method} signup(user, email, password)
+}
+
+class View {
+  html login()
+  html signup()
+  html order()
+}
+@enduml
+```
