@@ -14,16 +14,27 @@
 
 ## POS 訂購畫面
 
-* 使用 plantuml 設計 -- http://plantuml.com/salt
+直接用 markdown 設計
 
+
+品項選單▼    附加選單▼    數量選單▼  小計_
 
 品名 | 單價 | 附加   | 加價 | 數量 | 小計
 -----|-----|-------|------|------|--------
 綠茶 | 20  | 加鮮奶 | 10   |  3   | 90
 珍珠奶茶 | 35  |    |      |  1   | 30
 
-    總價: 120    《送出》  《放棄》
+    總價: 120    【送出】  【放棄】
 
+
+1. 本介面使用 markdown 設計
+  * 符號: ▼ 代表選單, _ 代表輸入欄位, 【...】
+ 代表按鈕
+  * 也可以加上 html 語法直接設計，只是在 github 上無法很好的呈現該設計。
+  * 例如 :按鈕 <button>送出</button> 選擇框 <select><option>綠茶</option><option>紅茶</option></select>
+2. 或者也可以使用 plantuml 設計 -- http://plantuml.com/salt 
+3. 也可以用 ppt 或 slide 設計
+4. 當然也可以用更專業的工具，像是 AxureRP 或 Visual Studio ...
 
 ## 今日報表
 
