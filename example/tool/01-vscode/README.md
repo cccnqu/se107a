@@ -1,13 +1,6 @@
-# UML
+# VsCode
 
-## PlantUML
-
-學習 PlantUML 並安裝 VsCode 的插件
-
-* http://plantuml.com/
-
-## VsCode
-
+## Markdown Preview Enhanced
 Markdown Preview Enhanced 對 Markdown 按 Ctrl-K-V 可以預覽
 
 Markdown Preview Enhanced 支援很多功能，請參考：
@@ -25,13 +18,3 @@ PlantUML 的副檔名必須要是 puml 才能正確顯示。(預覽用 Alt-D)
   * https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-tw/presentation
 * 寫電子書，用 pandoc 輸出
   * https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-tw/ebook
-
-## iPos 需求分析
-
-1. 註冊/登入/登出
-2. 設定商店資料: 商店名稱與產品項目
-3. 下單: 可能由使用者或商店主輸入
-4. 出貨確認: 商店主與使用者雙方之一確認即可
-5. 商店報表: (當日/歷史/未出貨)
-6. 客戶報表: (未取貨/下單紀錄)
-
